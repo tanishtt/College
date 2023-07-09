@@ -391,7 +391,97 @@ section #courses-offered #courses{
     border-radius: 10px;
     object-fit: cover;
 }
+.inter-collab-name img:hover{
+    transform: scale(1.1);
+}
 
 /***********events***************/
+
+#main-events{
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
+    background-color: #004e89;
+}
+#event-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+#event-box h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    color: whitesmoke;
+    
+}
+#event-box #events{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+.event{
+    height: 300px;
+    width: 500px;
+    /* background-color: #efefd0; */
+    padding: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-position: center;
+    box-shadow: 0 0 10px 3px rgb(47, 46, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+#event1{
+    background-image: url(images/event11.jpg);
+    background-size: cover;
+}
+
+#event2{
+    background-image: url(images/event21.jpg);
+    background-size: cover;
+}
+#event3{
+    background-image:url(images/event31.jpg);
+    background-size: cover;
+}
+#event4{
+    background-image: url(images/event41.jpg);
+    background-size: cover;
+}
+.event h3{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.event p{
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.event button{
+    padding: 7px 10px 7px 10px;
+    background-color: #EF6262;
+    border-radius: 10px;
+    border: 0;
+    color: whitesmoke;
+    box-shadow: 0 0 10px 3px #0E2954;
+}
+.event button:hover{
+    background-color: #fe3131;
+    border: 1px solid #0E2954;
+}
 
 
