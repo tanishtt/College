@@ -212,7 +212,7 @@ header #university-name h1,h2{
 }
 /*************Courses***********/
 #main-courses{
-    min-height: 50vh;
+    min-height: 55vh;
     height: auto;
     width: 100%;
     color: whitesmoke;
@@ -272,7 +272,7 @@ section #courses-offered #courses{
 /**********facilities*********/
 
 #facilities{
-    min-height: 38vh;
+    min-height: 40vh;
     height: auto;
     width: 100%;
     background-color: #A0BFE0;
@@ -319,11 +319,27 @@ section #courses-offered #courses{
     padding-top: 10px;
     font-size: 2.5rem;
 }
+/***************our campus***************/
+
+#main-campus{
+    height: auto;
+    min-height: 90vh;
+    width: 100%;
+    background-color: #004e89;
+    color: whitesmoke;
+}
+#campus-box h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
+
 /*****************international-collaboration*****************/
 
 #international-collaboration{
     height: auto;
-    min-height: 55vh;
+    min-height: 67vh;
     width: 100%;
     background-color: #efefd0;
 }
@@ -402,7 +418,7 @@ section #courses-offered #courses{
 /***********events***************/
 
 #main-events{
-    min-height: 80vh;
+    min-height: 90vh;
     height: auto;
     width: 100%;
     background-color: #004e89;
@@ -495,7 +511,7 @@ section #courses-offered #courses{
 /*****************placements***************/
 
 #placements{
-    min-height: 87vh;
+    min-height: 90vh;
     width: 100%;
     height: auto;
     background-color: #A0BFE0;
@@ -581,12 +597,143 @@ section #courses-offered #courses{
 }
 
 /****************testimonials******************/
-
-
+#main-testimonials{
+    height: 70vh;
+    width: 100%;
+    background-color: #efefd0;
+}
+#testimonial-box h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #0e213e;
+}
 
 /****************main-contactus******************/
+#main-contactus{
+    min-height: 65vh;
+    width: 100%;
+    background-color: #004e89;
+    color: whitesmoke;
+}
+#contactus-box h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: whitesmoke;
+}
+#contactus
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contact-info{
+    height: auto;
+    min-width: 210px;
+    width: auto;
+    max-width: 280px;
+    /* background-color: #efefd0; */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding:30px;
+    margin-bottom: 25px;
+    
 
+}
+.contact-info:hover{
+    background-color:#005a9e;
+    border-radius: 20px;
+}
+.contact-info input{
+    border: 0;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+.contact-info form div{
+    margin-top: 6px;
+}
+.contact-info button{
+    padding: 6px 10px;
+    margin-top: 20px;
+    background-color: #EF6262;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px #0E2954;
+    border: 0;
+}
+.contact-info button:hover{
+    background-color: #fe3131;
+    transform: scale(1.04);
+}
+.contact-info h3{
+    padding-bottom: 10px;
+}
+/*1*/
+#contact-info-details-1 div{
+    width: auto;
+    padding-top: 10px;
+}
+#contact-info-details-2{
+    margin-top: 25px;
+    text-align: center;
+}
+#contact-info-details-2 i{
+    font-size: 2rem;
+    padding: 0px 8px;
+    color: whitesmoke;
+}
+#contact-info-details-2 i:hover{
+    transform: scale(1.1);
+    color: #efefd0;
+}
+/*3*/
+.contact-info p{
+    font-size: smaller;
+    font-weight: 200;
+}
+.contact-info ul li{
+    list-style: none;
+    padding-top: 8px;
+}
+.contact-info ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.contact-info ul li a:hover{
+    text-decoration: none;
+    color: #A0BFE0;
+}
+.contact-info button:hover{
+    background-color: #fe3131;
+}
+#contact-form{
+    height: 200px;
+    width: 200px;
+   
+}
+/* #contact-info-details
+{
+    height: 200px;
+    width: 200px;
+    background-color: #efefd0;
+}
+#contact-socialmedia{
+    height: 200px;
+    width: 200px;
+    background-color: #efefd0;
+} */
+/* #contact-form{
 
+} */
 /****************footer******************/
 footer{
     min-height: 15vh;
